@@ -1,0 +1,40 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* background-color: black; */
+  scroll-behavior: smooth;
+  /* color: white; */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url('/fonts/GothamNarrow-Black.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+  
+/* @font-face {
+  font-family: "Rubik";
+  src: url('../fonts/rubik/Rubik-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: "Rubik";
+  src: url('../fonts/rubik/Rubik-Italic.ttf');
+  font-weight: normal;
+  font-style: italic;
+} */
