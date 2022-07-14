@@ -374,11 +374,11 @@ export default function Home() {
           <div className={styles.mint_button}>
              {renderWhitelistButton()}
              <h3>{numberOfWhitelisted}/7 Whitelisted</h3>
-            <a href='https://portal.thirdweb.com/guides/get-matic-on-polygon-mumbai-testnet-faucet' target="_blank"><p>click here to add Polygon to your Metamask</p></a>
+            <a href='https://portal.thirdweb.com/guides/get-matic-on-polygon-mumbai-testnet-faucet' target="_blank" rel="noreferrer"><p>click here to add Polygon to your Metamask</p></a>
           </div>
         </div>
         <div className={styles.mainImage}>
-            <a href='https://opensea.io/collection/to-be-free-boundless' target="_blank"><img src='./saturns.jpeg' alt="'Frost' The Snow Fiend by Saturns_soul" href="google.com"/> </a>
+            <a href='https://opensea.io/collection/to-be-free-boundless' target="_blank" rel="noreferrer"><img src='./saturns.jpeg' alt="'Frost' The Snow Fiend by Saturns_soul" href="google.com"/> </a>
           </div>
       </div>
 
