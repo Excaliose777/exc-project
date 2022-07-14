@@ -297,7 +297,7 @@ export default function Home() {
 
   const renderWelcome = () => {
     if(walletConnected) {
-      return <a href={`https://mumbai.polygonscan.com/address/${address}`} target="_blank"><h4>Welcome {address}</h4></a>
+      return <a href={`https://mumbai.polygonscan.com/address/${address}`} target="_blank" rel="noreferrer"><h4>Welcome {address}</h4></a>
     }
   }
 
